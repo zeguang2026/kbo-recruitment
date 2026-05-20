@@ -43,12 +43,12 @@ header{background:linear-gradient(135deg,#FF2442 0%,#FF6B35 100%);color:white;pa
 .we{color:#FFB3BC}
 .cg{display:grid;grid-template-columns:repeat(7,1fr);gap:2px}
 
-.cell{border-radius:10px;padding:5px 4px 7px;min-height:82px;background:#FAFAFA;border:1.5px solid #F0F0F0;position:relative;transition:all .15s}
-.cell.has{cursor:pointer;border-color:#FFE0E5}
+.cell{border-radius:10px;padding:5px 4px 7px;min-height:68px;background:#FAFAFA;border:1.5px solid #F0F0F0;position:relative;transition:all .15s}
+.cell.has{cursor:pointer;border-color:#FFCCD4;background:white;box-shadow:0 1px 4px rgba(255,36,66,.08)}
 .cell.has:hover{border-color:#FF2442;background:#FFF8F9;transform:scale(1.01)}
 .cell.has:active{transform:scale(.98)}
 .cell.out{background:transparent;border:none;cursor:default}
-.cell.emp{background:#F5F5F7;border:1.5px dashed #EBEBEB;opacity:.5;cursor:default}
+.cell.emp{background:#F5F5F7;border:1.5px solid #F0F0F0;opacity:.2;cursor:default;min-height:40px}
 .cell.tod{border-color:#FF2442!important;background:#FFF5F7!important}
 .cell.tod .cd-num{color:#FF2442;font-weight:800}
 .cd{display:flex;align-items:center;justify-content:space-between;margin-bottom:4px}
